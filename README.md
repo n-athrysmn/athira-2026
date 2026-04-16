@@ -101,8 +101,13 @@ run this project in your local machine.
    You can skip this step and the next two steps if you want to deploy to
    Vercel.
 
-9. Be sure to push all changes before you start deploying the project. To deploy
-   the project in your GitHub Pages, run the command below in the terminal
+9. Be sure to push all changes before you start deploying the project then
+   create a build
+   ```sh
+   npm run build
+   ```
+   after build is done, run the command below in the terminal to deploy the
+   project in GitHub Pages
    ```sh
    npm run deploy
    ```
