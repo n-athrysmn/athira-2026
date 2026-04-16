@@ -79,7 +79,12 @@ run this project in your local machine.
    ```sh
    git commit -m "first commit"
    ```
-7. Push the changes to your remote repository
+7. Push the changes to your remote repository, you need to stage the changes
+   first
+   ```sh
+   git add .
+   ```
+   and then push the changes
    ```sh
    git push -u origin main
    ```
