@@ -87,6 +87,10 @@ run this project in your local machine.
    ```sh
    git push -u origin main
    ```
+   for subsequent code push (after the first commit), just run the command below
+   ```sh
+   git push
+   ```
 8. For deployment to GitHub pages purposes, go to the package.json file and
    change the homepage link according to the format below
 
