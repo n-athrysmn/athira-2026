@@ -122,8 +122,8 @@ Please check them out below:
    npm run deploy
    ```
 3. After a few minutes, you will be able to see the project live on the link you
-   put on step 8. If you made more changes, you can just commit the changes and
-   run the command in step 9 to redeploy.
+   put on step 1. If you made more changes, you can just commit the changes and
+   run the command in step 2 to redeploy.
 
 ### Vercel
 
