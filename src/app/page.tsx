@@ -11,6 +11,7 @@ import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Action from "./components/Action";
+import Feedbacks from "./components/Feedbacks";
 
 export default function Home() {
   const [step, setStep] = useState(0);
@@ -23,6 +24,7 @@ export default function Home() {
     <Projects />,
     <Skills />,
     <Action />,
+    <Feedbacks />,
   ];
 
   return (
